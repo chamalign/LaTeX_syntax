@@ -4,6 +4,87 @@
 改行は\\、段落は空行
 
 ## コメント
- %コメントアウト
+%コメントアウト
 
-## 
+## 数式のインライン表示
+$a^2 + b^2 = c^2$ 
+
+## 数式の中央表示
+\[ a^2 + b^2 = c^2 \]
+
+## 番号付き数式
+\begin{equation}
+E = mc^2
+\end{equation}
+
+## 上付き・下付き
+x^2, H_2O
+
+## ギリシャ文字
+\alpha, \beta, \gamma, \theta, \pi
+
+## 分数・ルート
+\frac{a}{b}, \sqrt{2}, \sqrt[n]{x}
+
+## 行列
+\begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}
+
+## 表の作成
+\begin{tabular}{|c|c|}
+\hline
+A & B \\
+\hline
+1 & 2 \\
+\hline
+\end{tabular}
+
+## 画像の挿入
+\includegraphics[width=0.5\textwidth]{image.png}
+
+## パッケージ
+\usepackage{amsmath}   % 数式の強化
+\usepackage{graphicx}  % 画像挿入
+\usepackage{hyperref}  % リンクの自動化
+\usepackage{listings}  % ソースコード
+\usepackage{tikz}      % 図の描画
+
+## コード表示
+\begin{lstlisting}[language=Python]
+def hello():
+    print("Hello, LaTeX!")
+\end{lstlisting}
+
+## リンクとURL
+\href{https://github.com}{GitHubへ}
+\url{https://github.com}
+
+## 参考文献
+\cite{key}  % 文中引用
+
+\bibliographystyle{plain}
+\bibliography{refs}    % refs.bibファイルを参照
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
